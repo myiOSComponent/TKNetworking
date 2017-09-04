@@ -1,0 +1,6 @@
+framework module TKDataAnalysisCategory {
+  umbrella header "TKDataAnalysisCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}

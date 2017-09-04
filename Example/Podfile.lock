@@ -1,0 +1,57 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Kiwi (2.4.0)
+  - TKDataAnalysisCategory (0.0.1):
+    - TKMiddleware (~> 0.0.1)
+  - TKMiddleware (0.0.1)
+  - TKModelCategory (0.0.13):
+    - TKMiddleware (~> 0.0.1)
+  - TKNetwork (0.0.1):
+    - AFNetworking
+    - TKDataAnalysisCategory (~> 0.0.1)
+    - TKModelCategory (~> 0.0.13)
+  - TKNetworking (0.1.0):
+    - TKMiddleware (~> 0.0.1)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Kiwi
+  - TKNetwork (~> 0.0.1)
+  - TKNetworking (from `../`)
+
+EXTERNAL SOURCES:
+  TKNetworking:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  TKDataAnalysisCategory: a3d42452ca683d947beabd9ffdbd68030b41b6ba
+  TKMiddleware: e4152543d955825c3a8a6f68eaefbfebca2292c7
+  TKModelCategory: 400d84670bcff8ed3261ebbf1516ee30233aaed6
+  TKNetwork: 5b047a3e0828a7c534b82c5ddcd735db0af18343
+  TKNetworking: 9adde3ca62fef67ffd36f85522deb10a7b6658c6
+
+PODFILE CHECKSUM: 5f073b4c0ff407380a3fd6aba9d9a6e6830b4bf7
+
+COCOAPODS: 1.3.1

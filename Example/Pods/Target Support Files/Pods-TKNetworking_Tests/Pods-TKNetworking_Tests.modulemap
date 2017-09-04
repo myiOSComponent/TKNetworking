@@ -1,0 +1,6 @@
+framework module Pods_TKNetworking_Tests {
+  umbrella header "Pods-TKNetworking_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

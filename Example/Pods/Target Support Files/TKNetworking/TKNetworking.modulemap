@@ -1,0 +1,6 @@
+framework module TKNetworking {
+  umbrella header "TKNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}

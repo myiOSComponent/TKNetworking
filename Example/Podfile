@@ -1,3 +1,7 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/myiOSComponent/myRepo.git'
+platform :ios, '8.0'
+inhibit_all_warnings!
 use_frameworks!
 
 target 'TKNetworking_Example' do
@@ -8,5 +12,6 @@ target 'TKNetworking_Example' do
 
     pod 'Kiwi'
   pod 'FBSnapshotTestCase'
+  pod 'TKNetwork', '~> 0.0.1'
   end
 end
