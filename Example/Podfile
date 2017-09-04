@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'TKNetworking_Example' do
+  pod 'TKNetworking', :path => '../'
+
+  target 'TKNetworking_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  pod 'FBSnapshotTestCase'
+  end
+end
